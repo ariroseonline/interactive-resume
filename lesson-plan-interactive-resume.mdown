@@ -1,0 +1,96 @@
+#Directing Design
+### Whirlwind Tour of UX Design, Visual Design, and Front-End Implementation
+
+# What's happening in Front-end dev
+### Frameworks
+    * Rails (and Django, etc) Pipeline serving javascript ad-hoc depending on the controller/page you're on
+    * Rails (and Django, etc) serving up your entire JS front-end framework on initial pageload. Then using Rails as an API. 
+        * Orthodox Rails API: The near-future variation would be serving up only your static front-end framework files from a CDN/static server without routing the request through Rails at all. Not quite there yet, I think.
+    * All Javascript Node.js based stacks
+    * Server-side: HTML/Handlebars/Markup Rendered on Server
+    * Outside (Split:
+    * 
+    *  
+
+* Using bootstrap vs bespoke
+    * Similar thinking until it comes down to get down to coding
+* Bootstrap
+    * Things you must accept
+        * It'll make you a lot more productive
+        * It will limit your UX experience, but it will make it acceptable
+        * Know and accept the limitation: Don't try to make it too bespoke. You'll be fighting the framework.
+
+
+
+* We'll start with design process. If you're anything like I was, you'll not really pay attention and wait for the more concrete bits of visual design and front-end dev. Pay attention: the dirty little secret in the industry is that design is being abstracted and wages are going down. You need to know how to direct design.
+
+#Resources
+##### There's an endless amount out there. A defining trait of working on the web is that all information is free (or cheap) and available. That includes all the bad stuff. Bad stuff means information that is just plain wrong. But also, outdated information, poorly presented information, or just irrelevant information. Save your time and attention. This is based off of quality. Don't be afraid to pay. Respect the field of graphic design. 
+
+* Design Trends at Large
+    * [Fonts in Use][1]
+    * [FFFFound][2]
+* Web Design
+    * [Codrops][3]
+    * [Css-tricks][4]
+    * [Code School](http://www.codeschool.com)
+    * [Lynda](http://www.lynda.com)
+
+
+#Intro
+* There's a lot of talk about 'doing it your own way'. Go ahead and do that, then come back to these notes when you're frustrated with the process and quality of your work. Every serious professional I know arrives at what I'm saying in this presentation after years of flabbing about trying to take shortcuts.
+* You probably won't be able to do this seamlessly at first. You'll be missing knowledge of the possible components and libraries to use. Don't be too hard on yourself. The goal is to do each of these steps, but as rapidly as possible. It's a iterative process, even helical.  
+* My terminology is a little different than what you may hear, particularly with mockup fidelities. But I'm right, so listen to me.
+
+#Plan
+
+These aren't steps that you follow in order. That'd be ideal, but it's not realisitc. They are tools. You will, and should be, doing these out of order.
+
+
+###Low-fidelity Layouts
+##### Reason for existence: You have zero image of what the interface will actually look like. You don't even know what features to include. You're stuck. You're not able to communicate with others; you're not able to communicate the idea to yourself.
+* Paper
+* Whiteboard
+
+### Mid-fidelity Layouts
+##### Reason for existence: To be able to share with others. To be able to edit on whim. To move fast, to make lots of duplicate elements.
+##### When you would use: 
+* [Balsamiq][5]
+* Keynote
+* [Sketch][6]
+
+###Hi-fidelity Layouts 
+##### Reason for existence: To share with non-technical people. To uncover potential underlying issues with how text will flow on the page and issues with images. 
+
+* [Sketch][6]
+    * Excellent for laying out grids
+    * Fonts
+    * Applying styles that have direct correlates with CSS properties
+    * Intuitive for most part
+    * Lacks great image manipulation. So you have to edit your images in Preview (which is great for most things: sizing, cropping, alpha transparency, exporting as PNG, etc)
+* Adobe Photoshop
+    * Image manipulation
+    * Doesn't translate to the web that well, but still the best if you need perfection at any cost.
+
+###Setup environment
+* HTML5 Boilerplate (static sites)
+* Node, etc
+* Rails templates
+* Spill, then DRY
+* You'd eventually abstract these into templates
+
+###Style
+* SCSS
+* 
+
+#Take-Aways
+* Spill then DRY (abstract).
+* Don't be afraid to pay for learning resources. 
+
+
+[1]: http://fontsinuse.com
+[2]: http://ffffound.com
+[3]: http://tympanus.net/codrops/
+[4]: http://css-tricks.com
+[5]: http://balsamiq.com
+[6]: http://bohemiancoding.com
