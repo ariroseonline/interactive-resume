@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/zakelfassi/sass-rails
+  revision: 0d4013878dd18440c98da4ffa62208e7700f2477
+  specs:
+    sass-rails (4.0.2)
+      railties (>= 4.0.0, < 5.0)
+      sass (~> 3.3.4)
+      sprockets (~> 2.8, <= 2.11.0)
+      sprockets-rails (~> 2.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -26,6 +36,12 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
+    bootflat-rails (0.1.8)
+      bootstrap-sass (~> 3.1)
+      jquery-rails (~> 3.1)
+      sass (~> 3.3)
+    bootstrap-sass (3.1.1.1)
+      sass (~> 3.2)
     builder (3.1.4)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -36,6 +52,8 @@ GEM
     coffee-script-source (1.7.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    font-awesome-sass (4.0.3.1)
+      sass (~> 3.2)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (1.5.3)
@@ -71,12 +89,7 @@ GEM
     rake (10.3.1)
     rdoc (4.1.1)
       json (~> 1.4)
-    sass (3.2.19)
-    sass-rails (4.0.3)
-      railties (>= 4.0.0, < 5.0)
-      sass (~> 3.2.0)
-      sprockets (~> 2.8, <= 2.11.0)
-      sprockets-rails (~> 2.0)
+    sass (3.3.5)
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
@@ -107,11 +120,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootflat-rails
+  bootstrap-sass (~> 3.1.1)
   coffee-rails (~> 4.0.0)
+  font-awesome-sass
   jbuilder (~> 1.2)
   jquery-rails
   rails (= 4.0.4)
-  sass-rails (~> 4.0.2)
+  sass-rails!
   sdoc
   sqlite3
   turbolinks

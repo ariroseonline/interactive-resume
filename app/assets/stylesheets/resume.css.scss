@@ -1,0 +1,34 @@
+body {
+  background: #f2f2f2;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+section .row {
+  padding-top:0;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.avatar {
+  padding-right:30px;
+  .avatar-image {
+    border-radius: 250px;
+    width: 100%;
+  }
+}
+
+.technical-experience .list-group-item p {
+  margin-top: 10px;
+}
+
